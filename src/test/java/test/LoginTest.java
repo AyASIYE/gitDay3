@@ -29,4 +29,16 @@ public class LoginTest {
 
         Assert.assertEquals(driver.getTitle(), "Web Orders");
     }
-}
+
+
+    @Test
+    public void logOutTest() {
+        driver.close();
+    }
+
+
+
+
+    }
+
+
